@@ -1,4 +1,4 @@
-import React from 'react'
+
 export default [
     {
         id: 1,
@@ -24,7 +24,7 @@ export default [
             reviewCount: 30
         },
         location: "Online",
-        openSport: 27,
+        openSports: 27,
 
     },
     {
@@ -37,7 +37,7 @@ export default [
             rating: 4.5,
             reviewCount: 50
         },
-        location: "Physical",
-        openSport: 30,
+        location: "Online",
+        openSports: 30,
     }
 ]

@@ -19,6 +19,7 @@ export default function App() {
             location={item.location}
             title={item.title}
             price={item.price}
+            openSports={item.openSports}
             />
         )
     })

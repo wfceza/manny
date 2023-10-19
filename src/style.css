@@ -50,6 +50,7 @@ section {
     display: flex;
     flex-direction: column;
     display: inline-block;
+    position: relative;
 }
 
 .card-image {
@@ -63,4 +64,16 @@ section {
     
 }
 
-.card {}
+.card-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-badge:hover {
+    opacity: 0.7;
+}
