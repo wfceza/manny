@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/manny/static/css/main.402d1f84.css",
+    "main.js": "/manny/static/js/main.39ebd0e7.js",
+    "index.html": "/manny/index.html",
+    "main.402d1f84.css.map": "/manny/static/css/main.402d1f84.css.map",
+    "main.39ebd0e7.js.map": "/manny/static/js/main.39ebd0e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.402d1f84.css",
+    "static/js/main.39ebd0e7.js"
+  ]
+}
