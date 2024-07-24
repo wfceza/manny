@@ -1,3 +1,7 @@
-import React from "react";
-import ReactDom from "react";
-
+import Manny from "./Manny"
+export default function App () {
+  
+  return (
+    <Manny />
+  )
+}
