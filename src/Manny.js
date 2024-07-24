@@ -1,4 +1,4 @@
-
+import React from "react"
 export default function Manny () {
 
     const [isCorrect, setIsCorrect] = React.useState(false)
@@ -13,7 +13,7 @@ export default function Manny () {
             <h1>I AM SO SORRY FOR EVERYTHING MANNY</h1>
             <h3>Will you forgive me?</h3>
             <button onClick={yesAnswer}>yes</button>
-            <button>No</button>
+            {isCorrect && <p>Thank you very much, and i promise not to hurt you agaim</p>}
         </div>
     )
 }
